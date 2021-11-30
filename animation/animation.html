@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <style>
+            .root{
+                height: 200px;
+                width: 200px;
+                background-color: blue;
+                animation-name: changecolor;
+                animation-duration: 5s;
+            }
+            @keyframes changecolor{
+                0%{background-color: blueviolet;}
+                25%{background-color: rgb(192, 226, 43);
+                border-radius: 60%;}
+                50%{background-color: rgb(226, 43, 43);
+                border-radius: 70%;}
+                75%{background-color:red;
+                border-radius: 80%;}
+                100% {background-color:blue;}
+                
+            }
+        </style>
+        <div class="root"></div>
+    </body>
+</html>
